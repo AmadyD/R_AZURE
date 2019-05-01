@@ -1,0 +1,70 @@
+﻿@model IEnumerable<R_AZURE.Controllers.MvcVolsModel>
+
+@{
+    ViewData["Title"] = "RESERVEZ VOTRE VOL AU MEILLEUR PRIX";
+}
+
+<div class="text-center">
+    <h1><span class="badge badge-primary">@ViewData["Title"]</span></h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.id_vol)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nom_vol)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.aero_depart)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.aero_arriv)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.date_depart)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.date_arriv)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.id_vol)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.nom_vol)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.aero_depart)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.aero_arriv)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.date_depart)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.date_arriv)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Détails", "Details", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Faire une réservation", "Reservation", new { /* id=item.PrimaryKey */ }) 
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+</div>
+
+
+

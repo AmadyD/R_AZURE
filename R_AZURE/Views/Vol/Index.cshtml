@@ -1,0 +1,26 @@
+﻿@model R_AZURE.Models.VolModel
+@{
+    ViewData["Title"] = "RESERVEZ VOTRE VOLS AU MEILLEURS PRIX";
+    Layout = "~/Views/Shared/_LayoutVol.cshtml";
+}
+
+<div class="text-center">
+    <h1><span class="badge badge-primary">@ViewData["Title"]</span></h1>
+
+    <div id="div-vols">
+        <p>Vol numéro : <a class="btn btn-primary" asp-area="" asp-controller="Vol" asp-action="VolDetail" role="button">@Model.numVol</a></p>
+        <p>Départ : @Model.depart  - Date Départ : @Model.heureDepart.ToString("MM/dd/yyyy") - Heure Départ : @Model.heureDepart.ToString("HH:mm")</p>
+        <p>Arriver : @Model.arriver - Date Arrivée : @Model.heureArriver.ToString("MM/dd/yyyy") - Heure Arrivée : @Model.heureArriver.ToString("HH:mm")</p>
+        <p>Nombre de place restante :  @Model.place</p>
+    </div>
+
+
+
+</div>
+
+
+@***************Code JQuery ******************@ 
+@section VolsJs
+{
+
+}

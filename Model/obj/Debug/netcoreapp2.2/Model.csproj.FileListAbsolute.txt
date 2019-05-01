@@ -1,0 +1,14 @@
+/Users/Joss/Projects/R_AZURE/Model/bin/Debug/netcoreapp2.2/Model.deps.json
+/Users/Joss/Projects/R_AZURE/Model/bin/Debug/netcoreapp2.2/Model.runtimeconfig.json
+/Users/Joss/Projects/R_AZURE/Model/bin/Debug/netcoreapp2.2/Model.runtimeconfig.dev.json
+/Users/Joss/Projects/R_AZURE/Model/bin/Debug/netcoreapp2.2/Model.dll
+/Users/Joss/Projects/R_AZURE/Model/bin/Debug/netcoreapp2.2/Model.pdb
+/Users/Joss/Projects/R_AZURE/Model/obj/Debug/netcoreapp2.2/Model.csprojAssemblyReference.cache
+/Users/Joss/Projects/R_AZURE/Model/obj/Debug/netcoreapp2.2/Model.csproj.CoreCompileInputs.cache
+/Users/Joss/Projects/R_AZURE/Model/obj/Debug/netcoreapp2.2/Model.RazorAssemblyInfo.cache
+/Users/Joss/Projects/R_AZURE/Model/obj/Debug/netcoreapp2.2/Model.RazorAssemblyInfo.cs
+/Users/Joss/Projects/R_AZURE/Model/obj/Debug/netcoreapp2.2/Model.AssemblyInfoInputs.cache
+/Users/Joss/Projects/R_AZURE/Model/obj/Debug/netcoreapp2.2/Model.AssemblyInfo.cs
+/Users/Joss/Projects/R_AZURE/Model/obj/Debug/netcoreapp2.2/Model.RazorTargetAssemblyInfo.cache
+/Users/Joss/Projects/R_AZURE/Model/obj/Debug/netcoreapp2.2/Model.dll
+/Users/Joss/Projects/R_AZURE/Model/obj/Debug/netcoreapp2.2/Model.pdb

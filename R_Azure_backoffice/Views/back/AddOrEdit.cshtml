@@ -1,0 +1,48 @@
+﻿@model R_Azure_backoffice.Models.MvcVolModel
+@{
+    ViewData["Title"] = "AddOrEdit";
+}
+
+<div class="form-body">
+    @using (Html.BeginForm())
+    {
+        @Html.HiddenFor(model => model.id_vol);
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.nom_vol)
+            @Html.EditorFor(model => model.nom_vol)
+            @Html.ValidationMessageFor(model => model.nom_vol)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.aero_depart)
+            @Html.EditorFor(model => model.aero_depart)
+            @Html.ValidationMessageFor(model => model.aero_depart)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.aero_arriv)
+            @Html.EditorFor(model => model.aero_arriv)
+            @Html.ValidationMessageFor(model => model.aero_arriv)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.date_depart)
+            @Html.EditorFor(model => model.date_depart)
+            @Html.ValidationMessageFor(model => model.date_depart)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.date_arriv)
+            @Html.EditorFor(model => model.date_arriv)
+            @Html.ValidationMessageFor(model => model.date_arriv)
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Valider" class="btn button" />
+            <input type="reset" value="Reset" class="btn button" />
+        </div>
+    }
+
+</div>
+
